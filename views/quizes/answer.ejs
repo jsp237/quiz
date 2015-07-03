@@ -8,10 +8,9 @@
 		<link rel="stylesheet" type="text/css" href="/stylesheet/smartphone.css" media="only screen and (max-width: 480px)">
 	</head>
 <body>		
-	<h4>
-	<%= respuesta %>
-	<br /><br />
-	<a href="/quizes/question">Int&eacute;ntelo Otra Vez</a>
-	</h4>	
+	<p>
+		<%= respuesta %>
+		<a href="/quizes/<%= quiz.id %>"><br />Volver</a>
+	</p>	
 </body>
 </html>
